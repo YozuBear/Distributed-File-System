@@ -1,4 +1,6 @@
 # Distributed File System  
+This was an individual assignment from a distributed system class I took in January, 2018.  
+
 [Full project description](https://www.cs.ubc.ca/~bestchai/teaching/cs416_2017w2/assign2/)  </br></br>
 There are two kinds of nodes in the system: clients and a single server. The clients are connected in a star topology to the server: none of the clients interact directly with each other and instead communicate indirectly through the central server. Each client is composed of a DFS client library and an application that imports that library and uses it to interact with the DFS using the DFS API. Each client also has access to local persistent disk storage.  
  
